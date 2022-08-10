@@ -4,6 +4,12 @@ This project used Redux Toolkit’s createAsyncThunk and createSlice utilities t
 
 To run this application you will need know the React, Redux and React Toolkit concepts found here.[Redux Essentials](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 
+## Used Create a React Redux App with Redux + Plain JS template
+
+[Redux Toolkit](https://redux.js.org/introduction/getting-started)
+
+### `npx create-react-app redux-news-reader --template redux`
+
 ## MSW-Mock Service Work used as an external API.
 
 This project used [MSW-Mock Service Work](https://mswjs.io/docs/getting-started/install) to replicate the functionality of an external API.
