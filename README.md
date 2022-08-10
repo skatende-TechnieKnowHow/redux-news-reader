@@ -1,4 +1,24 @@
-# Getting Started with Create React App and Redux
+# Redux News Reader Project
+
+This project used Redux Toolkit’s createAsyncThunk and createSlice utilities to add asynchronous functionality to the Redux applications.
+
+To run this application you will need know the React, Redux and React Toolkit concepts found here.[Redux Essentials](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+
+## MSW-Mock Service Work used as an external API.
+
+This project used [MSW-Mock Service Work](https://mswjs.io/docs/getting-started/install) to replicate the functionality of an external API.
+
+Make sure that you have the mockServiceWorker.js in your root directory and run this command.
+
+### `npm install msw --save-dev`
+
+## Using FireFox Developer Version vs Google Chrome.
+
+This project was tested using FireFox Developer Version Browser with React Developer Tools, and Redux DevTools extensions installed.
+However, if you’re using  Google Chrome , you may need to perform this step in order to use MSW.  Follow steps to use [Google Chrome and enable third-party cookies](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en).
+
+
+## Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
